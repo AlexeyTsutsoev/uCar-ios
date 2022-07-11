@@ -14,6 +14,15 @@
 		36873752287CA8EF007DA423 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36873751287CA8EF007DA423 /* Preview Assets.xcassets */; };
 		36873754287CA8EF007DA423 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36873753287CA8EF007DA423 /* Persistence.swift */; };
 		36873757287CA8EF007DA423 /* uCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36873755287CA8EF007DA423 /* uCar.xcdatamodeld */; };
+		3693F93C287CC80A00F44A3F /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F933287CC80A00F44A3F /* Inter-Regular.ttf */; };
+		3693F93D287CC80A00F44A3F /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F934287CC80A00F44A3F /* Inter-Light.ttf */; };
+		3693F93E287CC80A00F44A3F /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F935287CC80A00F44A3F /* Inter-Bold.ttf */; };
+		3693F93F287CC80A00F44A3F /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F936287CC80A00F44A3F /* Inter-ExtraBold.ttf */; };
+		3693F940287CC80A00F44A3F /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F937287CC80A00F44A3F /* Inter-Black.ttf */; };
+		3693F941287CC80A00F44A3F /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F938287CC80A00F44A3F /* Inter-ExtraLight.ttf */; };
+		3693F942287CC80A00F44A3F /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F939287CC80A00F44A3F /* Inter-SemiBold.ttf */; };
+		3693F943287CC80A00F44A3F /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F93A287CC80A00F44A3F /* Inter-Thin.ttf */; };
+		3693F944287CC80A00F44A3F /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F93B287CC80A00F44A3F /* Inter-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,16 @@
 		36873751287CA8EF007DA423 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36873753287CA8EF007DA423 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		36873756287CA8EF007DA423 /* uCar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = uCar.xcdatamodel; sourceTree = "<group>"; };
+		3693F933287CC80A00F44A3F /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		3693F934287CC80A00F44A3F /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		3693F935287CC80A00F44A3F /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		3693F936287CC80A00F44A3F /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3693F937287CC80A00F44A3F /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		3693F938287CC80A00F44A3F /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3693F939287CC80A00F44A3F /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		3693F93A287CC80A00F44A3F /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		3693F93B287CC80A00F44A3F /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		3693F945287CC9A200F44A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		86231EF30CC4D7064BCCDB99 /* Pods-uCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uCar.release.xcconfig"; path = "Target Support Files/Pods-uCar/Pods-uCar.release.xcconfig"; sourceTree = "<group>"; };
 		A7AF80F6DE9A4BFC4E2701A9 /* Pods-uCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uCar.debug.xcconfig"; path = "Target Support Files/Pods-uCar/Pods-uCar.debug.xcconfig"; sourceTree = "<group>"; };
 		CF13BE94737E6518507447FC /* Pods_uCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,9 +81,10 @@
 		36873749287CA8EC007DA423 /* uCar */ = {
 			isa = PBXGroup;
 			children = (
+				3693F945287CC9A200F44A3F /* Info.plist */,
+				3693F90C287CC19400F44A3F /* Resources */,
 				3687374A287CA8EC007DA423 /* uCarApp.swift */,
 				3687374C287CA8EC007DA423 /* ContentView.swift */,
-				3687374E287CA8EF007DA423 /* Assets.xcassets */,
 				36873753287CA8EF007DA423 /* Persistence.swift */,
 				36873755287CA8EF007DA423 /* uCar.xcdatamodeld */,
 				36873750287CA8EF007DA423 /* Preview Content */,
@@ -78,6 +98,31 @@
 				36873751287CA8EF007DA423 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3693F90C287CC19400F44A3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3693F920287CC5F300F44A3F /* Fonts */,
+				3687374E287CA8EF007DA423 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3693F920287CC5F300F44A3F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3693F937287CC80A00F44A3F /* Inter-Black.ttf */,
+				3693F935287CC80A00F44A3F /* Inter-Bold.ttf */,
+				3693F936287CC80A00F44A3F /* Inter-ExtraBold.ttf */,
+				3693F938287CC80A00F44A3F /* Inter-ExtraLight.ttf */,
+				3693F934287CC80A00F44A3F /* Inter-Light.ttf */,
+				3693F93B287CC80A00F44A3F /* Inter-Medium.ttf */,
+				3693F933287CC80A00F44A3F /* Inter-Regular.ttf */,
+				3693F939287CC80A00F44A3F /* Inter-SemiBold.ttf */,
+				3693F93A287CC80A00F44A3F /* Inter-Thin.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		91C02116168721238BE12D64 /* Frameworks */ = {
@@ -94,7 +139,6 @@
 				A7AF80F6DE9A4BFC4E2701A9 /* Pods-uCar.debug.xcconfig */,
 				86231EF30CC4D7064BCCDB99 /* Pods-uCar.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,7 +202,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				36873752287CA8EF007DA423 /* Preview Assets.xcassets in Resources */,
+				3693F93E287CC80A00F44A3F /* Inter-Bold.ttf in Resources */,
+				3693F93C287CC80A00F44A3F /* Inter-Regular.ttf in Resources */,
+				3693F942287CC80A00F44A3F /* Inter-SemiBold.ttf in Resources */,
+				3693F941287CC80A00F44A3F /* Inter-ExtraLight.ttf in Resources */,
+				3693F93D287CC80A00F44A3F /* Inter-Light.ttf in Resources */,
 				3687374F287CA8EF007DA423 /* Assets.xcassets in Resources */,
+				3693F93F287CC80A00F44A3F /* Inter-ExtraBold.ttf in Resources */,
+				3693F943287CC80A00F44A3F /* Inter-Thin.ttf in Resources */,
+				3693F944287CC80A00F44A3F /* Inter-Medium.ttf in Resources */,
+				3693F940287CC80A00F44A3F /* Inter-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +383,9 @@
 				DEVELOPMENT_TEAM = 3K48P7XUH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uCar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,7 +400,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,6 +416,9 @@
 				DEVELOPMENT_TEAM = 3K48P7XUH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = uCar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -374,7 +433,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
