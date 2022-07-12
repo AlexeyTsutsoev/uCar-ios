@@ -1,6 +1,6 @@
 # uCar
 
-![screenshot of sample](https://raw.githubusercontent.com/AlexeyTsutsoev/uCar-ios/main/uCar/Assets.xcassets/AppIcon.appiconset/512.png)
+![screenshot of sample](https://raw.githubusercontent.com/AlexeyTsutsoev/uCar-ios/main/uCar/Resources/Assets.xcassets/AppIcon.appiconset/512.png)
 
 ## Description:
 Demo App for iOS without backend.
