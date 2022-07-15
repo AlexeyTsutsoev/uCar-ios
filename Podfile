@@ -7,4 +7,6 @@ target 'uCar' do
 
   # Pods for uCar
 
+	pod 'lottie-ios'
+
 end
