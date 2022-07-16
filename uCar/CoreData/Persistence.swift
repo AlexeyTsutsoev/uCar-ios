@@ -2,7 +2,7 @@
 //  Persistence.swift
 //  uCar
 //
-//  Created by Fusion Tech on 11.07.2022.
+//  Created by Alexey Tsutsoev on 11.07.2022.
 //
 
 import CoreData

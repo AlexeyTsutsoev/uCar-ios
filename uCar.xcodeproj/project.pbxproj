@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0ED74734074C0BD080BDE24C /* Pods_uCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF13BE94737E6518507447FC /* Pods_uCar.framework */; };
+		3629703D288216E400A0B567 /* in-develop-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 3629703C288216E400A0B567 /* in-develop-animation.json */; };
+		36297040288218F000A0B567 /* InProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629703F288218F000A0B567 /* InProgressView.swift */; };
+		3629704628821BFB00A0B567 /* HapticFeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629704528821BFB00A0B567 /* HapticFeedbackService.swift */; };
+		3629704B28821ED100A0B567 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629704A28821ED100A0B567 /* Images.swift */; };
+		3645B621287F627A007F4473 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3645B620287F627A007F4473 /* TextInput.swift */; };
+		3645B624287F64EB007F4473 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3645B623287F64EB007F4473 /* Colors.swift */; };
+		3645B626287F6B1F007F4473 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3645B625287F6B1F007F4473 /* MainButton.swift */; };
+		3645B629287F6D9D007F4473 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3645B628287F6D9D007F4473 /* ButtonStyles.swift */; };
+		3645B62B287F708F007F4473 /* MainText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3645B62A287F708F007F4473 /* MainText.swift */; };
+		36553D3428820B680017333D /* LottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36553D3328820B680017333D /* LottieAnimationView.swift */; };
 		3687374B287CA8EC007DA423 /* uCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687374A287CA8EC007DA423 /* uCarApp.swift */; };
 		3687374D287CA8EC007DA423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687374C287CA8EC007DA423 /* ContentView.swift */; };
 		3687374F287CA8EF007DA423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3687374E287CA8EF007DA423 /* Assets.xcassets */; };
@@ -23,9 +33,21 @@
 		3693F942287CC80A00F44A3F /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F939287CC80A00F44A3F /* Inter-SemiBold.ttf */; };
 		3693F943287CC80A00F44A3F /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F93A287CC80A00F44A3F /* Inter-Thin.ttf */; };
 		3693F944287CC80A00F44A3F /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F93B287CC80A00F44A3F /* Inter-Medium.ttf */; };
+		3693F94C287CD7F100F44A3F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3693F94B287CD7F100F44A3F /* Launch Screen.storyboard */; };
+		36C6F0B62882C83900CEC096 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6F0B52882C83900CEC096 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3629703C288216E400A0B567 /* in-develop-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "in-develop-animation.json"; sourceTree = "<group>"; };
+		3629703F288218F000A0B567 /* InProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressView.swift; sourceTree = "<group>"; };
+		3629704528821BFB00A0B567 /* HapticFeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackService.swift; sourceTree = "<group>"; };
+		3629704A28821ED100A0B567 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		3645B620287F627A007F4473 /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		3645B623287F64EB007F4473 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3645B625287F6B1F007F4473 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		3645B628287F6D9D007F4473 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		3645B62A287F708F007F4473 /* MainText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainText.swift; sourceTree = "<group>"; };
+		36553D3328820B680017333D /* LottieAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationView.swift; sourceTree = "<group>"; };
 		36873747287CA8EC007DA423 /* uCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3687374A287CA8EC007DA423 /* uCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uCarApp.swift; sourceTree = "<group>"; };
 		3687374C287CA8EC007DA423 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,7 +64,9 @@
 		3693F939287CC80A00F44A3F /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		3693F93A287CC80A00F44A3F /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
 		3693F93B287CC80A00F44A3F /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
-		3693F945287CC9A200F44A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3693F945287CC9A200F44A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3693F94B287CD7F100F44A3F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		36C6F0B52882C83900CEC096 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		86231EF30CC4D7064BCCDB99 /* Pods-uCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uCar.release.xcconfig"; path = "Target Support Files/Pods-uCar/Pods-uCar.release.xcconfig"; sourceTree = "<group>"; };
 		A7AF80F6DE9A4BFC4E2701A9 /* Pods-uCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uCar.debug.xcconfig"; path = "Target Support Files/Pods-uCar/Pods-uCar.debug.xcconfig"; sourceTree = "<group>"; };
 		CF13BE94737E6518507447FC /* Pods_uCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,9 +84,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3629703B288216D700A0B567 /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				3629703C288216E400A0B567 /* in-develop-animation.json */,
+			);
+			path = LottieAnimations;
+			sourceTree = "<group>";
+		};
+		3629703E288218D700A0B567 /* InProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				3629703F288218F000A0B567 /* InProgressView.swift */,
+			);
+			path = InProgressView;
+			sourceTree = "<group>";
+		};
+		3629704128821B2500A0B567 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3687374A287CA8EC007DA423 /* uCarApp.swift */,
+				3687374C287CA8EC007DA423 /* ContentView.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3629704228821B6A00A0B567 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				36873755287CA8EF007DA423 /* uCar.xcdatamodeld */,
+				36873753287CA8EF007DA423 /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3629704328821BD100A0B567 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3629704428821BE100A0B567 /* Services */,
+				3645B622287F64D8007F4473 /* Constants */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3629704428821BE100A0B567 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3629704528821BFB00A0B567 /* HapticFeedbackService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3645B622287F64D8007F4473 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3645B623287F64EB007F4473 /* Colors.swift */,
+				3629704A28821ED100A0B567 /* Images.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3645B627287F6D8D007F4473 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				3645B628287F6D9D007F4473 /* ButtonStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		36553D3128820B250017333D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36C6F0B42882BF7600CEC096 /* SplashView */,
+				3629703E288218D700A0B567 /* InProgressView */,
+				36553D3228820B490017333D /* LottieAnimationView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36553D3228820B490017333D /* LottieAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				36553D3328820B680017333D /* LottieAnimationView.swift */,
+			);
+			path = LottieAnimationView;
+			sourceTree = "<group>";
+		};
 		3687373E287CA8EC007DA423 = {
 			isa = PBXGroup;
 			children = (
+				3693F94B287CD7F100F44A3F /* Launch Screen.storyboard */,
 				36873749287CA8EC007DA423 /* uCar */,
 				36873748287CA8EC007DA423 /* Products */,
 				C30E7382D9F7C5E05EB91C2B /* Pods */,
@@ -82,12 +193,14 @@
 			isa = PBXGroup;
 			children = (
 				3693F945287CC9A200F44A3F /* Info.plist */,
-				3693F90C287CC19400F44A3F /* Resources */,
-				3687374A287CA8EC007DA423 /* uCarApp.swift */,
-				3687374C287CA8EC007DA423 /* ContentView.swift */,
-				36873753287CA8EF007DA423 /* Persistence.swift */,
-				36873755287CA8EF007DA423 /* uCar.xcdatamodeld */,
+				3629704328821BD100A0B567 /* Utils */,
+				3629704128821B2500A0B567 /* Application */,
+				3693F946287CCE0700F44A3F /* Components */,
+				3629704228821B6A00A0B567 /* CoreData */,
 				36873750287CA8EF007DA423 /* Preview Content */,
+				3693F90C287CC19400F44A3F /* Resources */,
+				36553D3128820B250017333D /* Views */,
+				3645B627287F6D8D007F4473 /* Styles */,
 			);
 			path = uCar;
 			sourceTree = "<group>";
@@ -103,6 +216,7 @@
 		3693F90C287CC19400F44A3F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3629703B288216D700A0B567 /* LottieAnimations */,
 				3693F920287CC5F300F44A3F /* Fonts */,
 				3687374E287CA8EF007DA423 /* Assets.xcassets */,
 			);
@@ -123,6 +237,24 @@
 				3693F93A287CC80A00F44A3F /* Inter-Thin.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3693F946287CCE0700F44A3F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3645B620287F627A007F4473 /* TextInput.swift */,
+				3645B625287F6B1F007F4473 /* MainButton.swift */,
+				3645B62A287F708F007F4473 /* MainText.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		36C6F0B42882BF7600CEC096 /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				36C6F0B52882C83900CEC096 /* SplashView.swift */,
+			);
+			path = SplashView;
 			sourceTree = "<group>";
 		};
 		91C02116168721238BE12D64 /* Frameworks */ = {
@@ -153,6 +285,7 @@
 				36873743287CA8EC007DA423 /* Sources */,
 				36873744287CA8EC007DA423 /* Frameworks */,
 				36873745287CA8EC007DA423 /* Resources */,
+				26C6C620E7AB683ED533397C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,12 +334,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3629703D288216E400A0B567 /* in-develop-animation.json in Resources */,
 				36873752287CA8EF007DA423 /* Preview Assets.xcassets in Resources */,
 				3693F93E287CC80A00F44A3F /* Inter-Bold.ttf in Resources */,
 				3693F93C287CC80A00F44A3F /* Inter-Regular.ttf in Resources */,
 				3693F942287CC80A00F44A3F /* Inter-SemiBold.ttf in Resources */,
 				3693F941287CC80A00F44A3F /* Inter-ExtraLight.ttf in Resources */,
 				3693F93D287CC80A00F44A3F /* Inter-Light.ttf in Resources */,
+				3693F94C287CD7F100F44A3F /* Launch Screen.storyboard in Resources */,
 				3687374F287CA8EF007DA423 /* Assets.xcassets in Resources */,
 				3693F93F287CC80A00F44A3F /* Inter-ExtraBold.ttf in Resources */,
 				3693F943287CC80A00F44A3F /* Inter-Thin.ttf in Resources */,
@@ -240,6 +375,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		26C6C620E7AB683ED533397C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uCar/Pods-uCar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uCar/Pods-uCar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uCar/Pods-uCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -247,10 +399,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3645B62B287F708F007F4473 /* MainText.swift in Sources */,
 				36873757287CA8EF007DA423 /* uCar.xcdatamodeld in Sources */,
+				3645B624287F64EB007F4473 /* Colors.swift in Sources */,
+				3645B626287F6B1F007F4473 /* MainButton.swift in Sources */,
 				36873754287CA8EF007DA423 /* Persistence.swift in Sources */,
 				3687374D287CA8EC007DA423 /* ContentView.swift in Sources */,
+				3645B629287F6D9D007F4473 /* ButtonStyles.swift in Sources */,
+				3629704B28821ED100A0B567 /* Images.swift in Sources */,
+				36553D3428820B680017333D /* LottieAnimationView.swift in Sources */,
+				3645B621287F627A007F4473 /* TextInput.swift in Sources */,
+				3629704628821BFB00A0B567 /* HapticFeedbackService.swift in Sources */,
+				36297040288218F000A0B567 /* InProgressView.swift in Sources */,
 				3687374B287CA8EC007DA423 /* uCarApp.swift in Sources */,
+				36C6F0B62882C83900CEC096 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +551,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -422,6 +586,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
