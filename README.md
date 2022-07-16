@@ -6,6 +6,12 @@
 Demo App for iOS without backend.
 Supported devices: iPhones with iOS 15.5 and newer.
 
+## Technologies
+
+* ### [Swift](https://developer.apple.com/swift/)
+* ### [SwiftUI](https://developer.apple.com/xcode/swiftui/)
+* ### [Lottie](https://github.com/airbnb/lottie-ios)
+
 ## Instalation
 
 #### Download project
