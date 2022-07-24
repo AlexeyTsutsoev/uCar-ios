@@ -12,9 +12,6 @@ class TabBarViewModel: ObservableObject {
     
     func setSelection(newSelection: Int) {
         HapticFeedbackService.hapticFeedbackOnTap(style: .medium)
-        
-        withAnimation {
-            selection = newSelection
-        }
+        selection = newSelection
     }
 }

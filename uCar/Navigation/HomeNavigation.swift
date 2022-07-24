@@ -17,7 +17,7 @@ struct HomeNavigation: View {
                 
                 switch tabBarVM.selection {
                 case 0:
-                    InProgressView(screenName: "Car")
+                    CarsView()
                 case 1:
                     InProgressView(screenName: "Order")
                 case 2:
@@ -31,6 +31,8 @@ struct HomeNavigation: View {
                 BottomTabView()
                     .environmentObject(tabBarVM)
             }
+            .navigationBarTitle("")
+            .navigationBarHidden(true)
         }
     }
 }

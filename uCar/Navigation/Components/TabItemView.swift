@@ -27,6 +27,7 @@ struct TabItemView: View {
         .padding(.horizontal, 14)
         .background(isSelected ? LIGHT_GRAY_COLOR : BACKGROUND_COLOR)
         .clipShape(Capsule())
+        .animation(.easeOut, value: isSelected)
         .onTapGesture {
             tabBarVM.setSelection(newSelection: tab.id)
         }
