@@ -10,11 +10,11 @@ import SwiftUI
 struct HomeNavigation: View {
     // MARK: - Environment
     @ObservedObject var tabBarVM = TabBarViewModel()
-    
+
     var body: some View {
         NavigationView {
             VStack(spacing: 0) {
-                
+
                 switch tabBarVM.selection {
                 case 0:
                     CarsView()
@@ -27,7 +27,7 @@ struct HomeNavigation: View {
                 default:
                     InProgressView(screenName: "Error")
                 }
-                
+
                 BottomTabView()
                     .environmentObject(tabBarVM)
             }

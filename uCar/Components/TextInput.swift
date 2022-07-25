@@ -12,15 +12,15 @@ struct TextInput: View {
     let title: String
     @FocusState private var isFocused: Bool
     @Binding var value: String
-    
+
     // MARK: - Body
     var body: some View {
         HStack {
             TextField(title, text: $value)
                 .focused($isFocused)
-            
+
             Spacer()
-            
+
             Image(systemName: "xmark")
                 .padding(.horizontal, 10)
                 .onTapGesture {
@@ -31,7 +31,7 @@ struct TextInput: View {
         .overlay(
             Rectangle()
                 .frame(height: 1)
-                .foregroundColor(isFocused ? ACCENT_COLOR : GRAY_COLOR),
+                .foregroundColor(isFocused ? mainAccentColor : grayColor),
             alignment: .bottom
         )
     }

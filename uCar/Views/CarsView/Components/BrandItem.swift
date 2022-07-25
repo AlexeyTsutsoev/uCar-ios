@@ -10,29 +10,29 @@ import SwiftUI
 struct BrandItem: View {
     @EnvironmentObject var carsVM: CarsViewModel
     let brand: AutoBrand
-    
+
     var body: some View {
         let isSelected = carsVM.selectedBrand.id == brand.id
-        
+
         ZStack {
             if isSelected {
                 Circle()
-                    .foregroundColor(ACCENT_COLOR)
+                    .foregroundColor(mainAccentColor)
                     .blur(radius: 20)
             }
-            
+
             VStack(alignment: .center, spacing: 5) {
                 Image(brand.imageName)
                     .resizable()
                     .frame(width: 40, height: 40)
                     .scaleEffect(isSelected ? 1.1 : 1)
                     .padding(.bottom, 8)
-                
-                MainText(text: brand.name, size: 11, weight: .bold, color: isSelected ? FONT_COLOR : GRAY_COLOR)
-                
+
+                MainText(text: brand.name, size: 11, weight: .bold, color: isSelected ? fontColor : grayColor)
+
                 if isSelected {
                     Circle()
-                        .foregroundColor(FONT_COLOR)
+                        .foregroundColor(fontColor)
                         .frame(width: 4, height: 4)
                 }
             }

@@ -13,7 +13,7 @@ struct FilledButton: ButtonStyle {
         configuration.label
             .frame(minWidth: 0, maxWidth: .infinity)
             .padding(.vertical, 10)
-            .foregroundColor(BACKGROUND_COLOR)
+            .foregroundColor(backgroundColor)
             .scaleEffect(configuration.isPressed ? 0.9 : 1)
             .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
     }

@@ -14,7 +14,7 @@ struct MainButton: View {
     let imageName: String?
     let isLoading: Bool
     let disabled: Bool
-    
+
     init (
         onPress: @escaping () -> Void,
         title: String,
@@ -28,7 +28,7 @@ struct MainButton: View {
         self.disabled = disabled
         self.imageName = imageName
     }
-    
+
     // MARK: - Body
     var body: some View {
         Button {
@@ -41,11 +41,11 @@ struct MainButton: View {
                     if let image = imageName {
                         Image(systemName: image)
                     }
-                    MainText(text: title, weight: .bold, color: BACKGROUND_COLOR)
+                    MainText(text: title, weight: .bold, color: backgroundColor)
                 }
             }
         }
-        .background(disabled ? GRAY_COLOR : FONT_COLOR)
+        .background(disabled ? grayColor : fontColor)
         .clipShape(Capsule())
         .buttonStyle(FilledButton())
         .disabled(isLoading || disabled)

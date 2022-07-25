@@ -9,7 +9,7 @@ import SwiftUI
 
 class TabBarViewModel: ObservableObject {
     @Published var selection = 0
-    
+
     func setSelection(newSelection: Int) {
         HapticFeedbackService.hapticFeedbackOnTap(style: .medium)
         selection = newSelection

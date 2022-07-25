@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct uCarApp: App {
+struct uCarApp: App { // swiftlint:disable:this type_name
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {

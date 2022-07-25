@@ -11,10 +11,10 @@ import CoreData
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
     @State private var isShowSplash = true
-    
+
     var body: some View {
         ZStack {
-            if (isShowSplash) {
+            if isShowSplash {
                 SplashView()
             } else {
                 HomeNavigation()

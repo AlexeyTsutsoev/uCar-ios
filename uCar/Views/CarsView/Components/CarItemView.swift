@@ -14,27 +14,27 @@ struct CarItemView: View {
             HStack(alignment: .center) {
                 VStack(alignment: .leading, spacing: 5) {
                     MainText(text: car.name, size: 30, weight: .bold)
-                    MainText(text: "From $ \(car.basePrice)", size: 13, weight: .heavy, color: GRAY_COLOR)
+                    MainText(text: "From $ \(car.basePrice)", size: 13, weight: .heavy, color: grayColor)
                     Image(car.imageName)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
-                
+
                 Spacer()
-                
+
                 Image(systemName: "chevron.right")
                     .resizable()
                     .frame(width: 25, height: 38)
             }
             .padding(16)
-            
+
             Divider()
-                .foregroundColor(LIGHT_GRAY_COLOR)
+                .foregroundColor(lightGrayColor)
         }
     }
 }
 
 struct CarItemView_Previews: PreviewProvider {
     static var previews: some View {
-        CarItemView(car: CAR_2)
+        CarItemView(car: car2)
     }
 }

@@ -10,14 +10,14 @@ import SwiftUI
 struct BottomTabView: View {
     var body: some View {
         HStack(alignment: .center) {
-            ForEach(BOTTOM_TABS) { tab in
+            ForEach(bottomTabs) { tab in
                 Spacer()
                 TabItemView(tab: tab)
                 Spacer()
             }
         }
         .padding(.vertical, 17)
-        .background(BACKGROUND_COLOR)
+        .background(backgroundColor)
     }
 }
 

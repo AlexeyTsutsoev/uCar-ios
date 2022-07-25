@@ -1,0 +1,6 @@
+included:
+  - uCar
+
+excluded:
+  - Pods
+
