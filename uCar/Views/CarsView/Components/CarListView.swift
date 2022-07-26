@@ -22,6 +22,6 @@ struct CarListView: View {
 
 struct CarListView_Previews: PreviewProvider {
     static var previews: some View {
-        CarListView(cars: [CAR_1, CAR_2])
+        CarListView(cars: [car1, car2])
     }
 }

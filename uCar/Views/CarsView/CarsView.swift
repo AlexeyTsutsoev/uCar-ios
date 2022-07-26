@@ -9,12 +9,15 @@ import SwiftUI
 
 struct CarsView: View {
     @ObservedObject var carsVM = CarsViewModel()
-    
+
     var body: some View {
         VStack {
-            HomeHeader(title: "Brand, model...", onBellPress: carsVM.onBellPress, onSliderPress: carsVM.onSLiderPress, value: $carsVM.searchValue)
+            HomeHeader(title: "Brand, model...",
+                       onBellPress: carsVM.onBellPress,
+                       onSliderPress: carsVM.onSLiderPress,
+                       value: $carsVM.searchValue)
             CarListView(cars: carsVM.searchedCars)
-            BrandSelectionView(brands: MOCK_DATA)
+            BrandSelectionView(brands: mockData)
         }
         .environmentObject(carsVM)
     }

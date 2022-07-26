@@ -26,6 +26,7 @@
 		364C1164288C9E6700318F32 /* SearchInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C1163288C9E6700318F32 /* SearchInput.swift */; };
 		364C1166288CA92100318F32 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364C1165288CA92100318F32 /* HomeHeader.swift */; };
 		36553D3428820B680017333D /* LottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36553D3328820B680017333D /* LottieAnimationView.swift */; };
+		365FED98288F148B008C4852 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 365FED97288F148B008C4852 /* .swiftlint.yml */; };
 		3687374B287CA8EC007DA423 /* uCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687374A287CA8EC007DA423 /* uCarApp.swift */; };
 		3687374D287CA8EC007DA423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687374C287CA8EC007DA423 /* ContentView.swift */; };
 		3687374F287CA8EF007DA423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3687374E287CA8EF007DA423 /* Assets.xcassets */; };
@@ -49,7 +50,7 @@
 		36C6F0BE28833B7100CEC096 /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6F0BD28833B7100CEC096 /* BottomTabView.swift */; };
 		36C6F0C02883492100CEC096 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6F0BF2883492100CEC096 /* TabBarViewModel.swift */; };
 		36C6F0C328834ADA00CEC096 /* BottomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6F0C228834ADA00CEC096 /* BottomTab.swift */; };
-		36C6F0C528834B6700CEC096 /* BottomTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6F0C428834B6700CEC096 /* BottomTabs.swift */; };
+		36C6F0C528834B6700CEC096 /* bottomTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6F0C428834B6700CEC096 /* bottomTabs.swift */; };
 		36C6F0C728834DC600CEC096 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6F0C628834DC600CEC096 /* TabItemView.swift */; };
 		36CFE9A32887506000605615 /* CarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFE9A22887506000605615 /* CarsView.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,7 @@
 		364C1163288C9E6700318F32 /* SearchInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInput.swift; sourceTree = "<group>"; };
 		364C1165288CA92100318F32 /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
 		36553D3328820B680017333D /* LottieAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationView.swift; sourceTree = "<group>"; };
+		365FED97288F148B008C4852 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		36873747287CA8EC007DA423 /* uCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3687374A287CA8EC007DA423 /* uCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uCarApp.swift; sourceTree = "<group>"; };
 		3687374C287CA8EC007DA423 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,7 +100,7 @@
 		36C6F0BD28833B7100CEC096 /* BottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
 		36C6F0BF2883492100CEC096 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
 		36C6F0C228834ADA00CEC096 /* BottomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTab.swift; sourceTree = "<group>"; };
-		36C6F0C428834B6700CEC096 /* BottomTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabs.swift; sourceTree = "<group>"; };
+		36C6F0C428834B6700CEC096 /* bottomTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomTabs.swift; sourceTree = "<group>"; };
 		36C6F0C628834DC600CEC096 /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
 		36CFE9A22887506000605615 /* CarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsView.swift; sourceTree = "<group>"; };
 		86231EF30CC4D7064BCCDB99 /* Pods-uCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uCar.release.xcconfig"; path = "Target Support Files/Pods-uCar/Pods-uCar.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,7 +176,7 @@
 			children = (
 				3645B623287F64EB007F4473 /* Colors.swift */,
 				3629704A28821ED100A0B567 /* Images.swift */,
-				36C6F0C428834B6700CEC096 /* BottomTabs.swift */,
+				36C6F0C428834B6700CEC096 /* bottomTabs.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -220,6 +222,7 @@
 		3687373E287CA8EC007DA423 = {
 			isa = PBXGroup;
 			children = (
+				365FED97288F148B008C4852 /* .swiftlint.yml */,
 				3693F94B287CD7F100F44A3F /* Launch Screen.storyboard */,
 				36873749287CA8EC007DA423 /* uCar */,
 				36873748287CA8EC007DA423 /* Products */,
@@ -377,6 +380,7 @@
 				36873744287CA8EC007DA423 /* Frameworks */,
 				36873745287CA8EC007DA423 /* Resources */,
 				26C6C620E7AB683ED533397C /* [CP] Embed Pods Frameworks */,
+				36D048E7288F1367007C5AAD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -435,6 +439,7 @@
 				3693F94C287CD7F100F44A3F /* Launch Screen.storyboard in Resources */,
 				3687374F287CA8EF007DA423 /* Assets.xcassets in Resources */,
 				3693F93F287CC80A00F44A3F /* Inter-ExtraBold.ttf in Resources */,
+				365FED98288F148B008C4852 /* .swiftlint.yml in Resources */,
 				3693F943287CC80A00F44A3F /* Inter-Thin.ttf in Resources */,
 				3693F944287CC80A00F44A3F /* Inter-Medium.ttf in Resources */,
 				3693F940287CC80A00F44A3F /* Inter-Black.ttf in Resources */,
@@ -483,6 +488,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uCar/Pods-uCar-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		36D048E7288F1367007C5AAD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -508,7 +530,7 @@
 				364C1160288C915600318F32 /* CarListView.swift in Sources */,
 				3645B629287F6D9D007F4473 /* ButtonStyles.swift in Sources */,
 				3629704B28821ED100A0B567 /* Images.swift in Sources */,
-				36C6F0C528834B6700CEC096 /* BottomTabs.swift in Sources */,
+				36C6F0C528834B6700CEC096 /* bottomTabs.swift in Sources */,
 				36C6F0C728834DC600CEC096 /* TabItemView.swift in Sources */,
 				36553D3428820B680017333D /* LottieAnimationView.swift in Sources */,
 				364C1164288C9E6700318F32 /* SearchInput.swift in Sources */,

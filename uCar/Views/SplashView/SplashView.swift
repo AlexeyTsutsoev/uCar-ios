@@ -12,13 +12,13 @@ struct SplashView: View {
     @State private var animate = false
     var body: some View {
         ZStack {
-            Image(LAUNCH_IMAGE)
+            Image(launchImage)
                 .resizable()
                 .padding(.horizontal, 10)
                 .padding(.vertical, 3)
                 .frame(width: 148, height: 148, alignment: .center)
                 .scaleEffect(animate ? 7 : 1)
-            
+
             MainText(text: "uCar", size: 30, weight: .bold)
                 .opacity(animate ? 0 : 1)
         }

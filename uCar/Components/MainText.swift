@@ -13,14 +13,14 @@ struct MainText: View {
     let size: CGFloat
     let weight: Font.Weight
     let color: Color
-    
-    init(text: String, size: CGFloat = 16.0, weight: Font.Weight = .medium, color: Color = FONT_COLOR) {
+
+    init(text: String, size: CGFloat = 16.0, weight: Font.Weight = .medium, color: Color = fontColor) {
         self.text = text
         self.size = size
         self.weight = weight
         self.color = color
     }
-    
+
     // MARK: - Body
     var body: some View {
         Text(text)

@@ -12,17 +12,17 @@ struct SearchInput: View {
     let title: String
     @FocusState private var isFocused: Bool
     @Binding var value: String
-    
+
     var body: some View {
         HStack {
             Image(systemName: "magnifyingglass")
-                .foregroundColor(GRAY_COLOR)
-            
+                .foregroundColor(grayColor)
+
             TextField(title, text: $value)
         }
         .padding(.vertical, 13)
         .padding(.horizontal, 16)
-        .background(LIGHT_GRAY_COLOR)
+        .background(lightGrayColor)
         .cornerRadius(12)
     }
 }

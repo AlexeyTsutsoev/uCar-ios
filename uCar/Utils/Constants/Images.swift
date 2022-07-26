@@ -7,4 +7,4 @@
 
 import Foundation
 
-public let LAUNCH_IMAGE = "LounchIcon"
+public let launchImage = "LounchIcon"

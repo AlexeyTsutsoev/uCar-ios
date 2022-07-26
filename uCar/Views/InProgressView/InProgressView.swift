@@ -9,18 +9,18 @@ import SwiftUI
 
 struct InProgressView: View {
     let screenName: String
-    
+
     var body: some View {
         VStack {
             LottieAnimationView()
-            
+
             HStack(spacing: 5) {
                 MainText(text: "Work on \(screenName) in Progress...")
                 ProgressView()
             }
         }
         .padding()
-        .background(ACCENT_COLOR)
+        .background(mainAccentColor)
     }
 }
 
