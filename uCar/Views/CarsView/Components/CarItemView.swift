@@ -10,26 +10,33 @@ import SwiftUI
 struct CarItemView: View {
     let car: Car
     var body: some View {
-        VStack {
-            HStack(alignment: .center) {
-                VStack(alignment: .leading, spacing: 5) {
-                    MainText(text: car.name, size: 30, weight: .bold)
-                    MainText(text: "From $ \(car.basePrice)", size: 13, weight: .heavy, color: grayColor)
-                    Image(car.imageName)
+        NavigationLink {
+            CarDetailsView(car: car)
+                .navigationBarHidden(true)
+        } label: {
+            VStack {
+                HStack(alignment: .center) {
+                    VStack(alignment: .leading, spacing: 5) {
+                        MainText(text: car.name, size: 30, weight: .bold)
+                        MainText(text: "From $ \(car.basePrice)", size: 13, weight: .heavy, color: grayColor)
+                        Image(car.imageName)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                    Spacer()
+
+                    Image(systemName: "chevron.right")
+                        .resizable()
+                        .frame(width: 25, height: 38)
+                        .foregroundColor(fontColor)
                 }
-                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(16)
 
-                Spacer()
-
-                Image(systemName: "chevron.right")
-                    .resizable()
-                    .frame(width: 25, height: 38)
+                Divider()
+                    .foregroundColor(lightGrayColor)
             }
-            .padding(16)
-
-            Divider()
-                .foregroundColor(lightGrayColor)
         }
+
     }
 }
 
