@@ -10,22 +10,16 @@ import Lottie
 
 struct LottieAnimationView: UIViewRepresentable {
     // MARK: - Fields
-    let animationName: String
-    let loopMode: LottieLoopMode
-
-    init(named: String = "in-develop-animation", loopMode: LottieLoopMode = .loop) {
-        self.animationName = named
-        self.loopMode = loopMode
-    }
+    @ObservedObject var lottieAnimationVM = LottieAnimationViewModel()
 
     // MARK: - Views
     func makeUIView(context: Context) -> UIView {
         let view = UIView()
 
         let animationView = AnimationView()
-        let animation = Animation.named(animationName)
+        let animation = Animation.named(lottieAnimationVM.named)
         animationView.animation = animation
-        animationView.loopMode = loopMode
+        animationView.loopMode = lottieAnimationVM.loopMode
         animationView.play()
         animationView.contentMode = .scaleAspectFit
 
