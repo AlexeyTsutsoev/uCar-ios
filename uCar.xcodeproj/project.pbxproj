@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0ED74734074C0BD080BDE24C /* Pods_uCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF13BE94737E6518507447FC /* Pods_uCar.framework */; };
+		2A7CB1812932A81B00614D04 /* LottieAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7CB1802932A81B00614D04 /* LottieAnimationViewModel.swift */; };
 		3629703D288216E400A0B567 /* in-develop-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 3629703C288216E400A0B567 /* in-develop-animation.json */; };
 		36297040288218F000A0B567 /* InProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629703F288218F000A0B567 /* InProgressView.swift */; };
 		3629704628821BFB00A0B567 /* HapticFeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629704528821BFB00A0B567 /* HapticFeedbackService.swift */; };
@@ -31,8 +32,6 @@
 		3687374D287CA8EC007DA423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687374C287CA8EC007DA423 /* ContentView.swift */; };
 		3687374F287CA8EF007DA423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3687374E287CA8EF007DA423 /* Assets.xcassets */; };
 		36873752287CA8EF007DA423 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36873751287CA8EF007DA423 /* Preview Assets.xcassets */; };
-		36873754287CA8EF007DA423 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36873753287CA8EF007DA423 /* Persistence.swift */; };
-		36873757287CA8EF007DA423 /* uCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36873755287CA8EF007DA423 /* uCar.xcdatamodeld */; };
 		3693F93C287CC80A00F44A3F /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F933287CC80A00F44A3F /* Inter-Regular.ttf */; };
 		3693F93D287CC80A00F44A3F /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F934287CC80A00F44A3F /* Inter-Light.ttf */; };
 		3693F93E287CC80A00F44A3F /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3693F935287CC80A00F44A3F /* Inter-Bold.ttf */; };
@@ -56,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A7CB1802932A81B00614D04 /* LottieAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationViewModel.swift; sourceTree = "<group>"; };
 		3629703C288216E400A0B567 /* in-develop-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "in-develop-animation.json"; sourceTree = "<group>"; };
 		3629703F288218F000A0B567 /* InProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressView.swift; sourceTree = "<group>"; };
 		3629704528821BFB00A0B567 /* HapticFeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackService.swift; sourceTree = "<group>"; };
@@ -80,8 +80,6 @@
 		3687374C287CA8EC007DA423 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3687374E287CA8EF007DA423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36873751287CA8EF007DA423 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		36873753287CA8EF007DA423 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		36873756287CA8EF007DA423 /* uCar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = uCar.xcdatamodel; sourceTree = "<group>"; };
 		3693F933287CC80A00F44A3F /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		3693F934287CC80A00F44A3F /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
 		3693F935287CC80A00F44A3F /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
@@ -120,6 +118,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A7CB17E2932A76700614D04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				364C1155288C828600318F32 /* data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A7CB17F2932A77B00614D04 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				364C1158288C856F00318F32 /* CarsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2A7CB1822932AA6A00614D04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36553D3328820B680017333D /* LottieAnimationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A7CB1832932AA7700614D04 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2A7CB1802932A81B00614D04 /* LottieAnimationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2A7CB1842932AD2C00614D04 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				36C6F0BF2883492100CEC096 /* TabBarViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2AEA11622932A4A600FBB08F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				36553D3228820B490017333D /* LottieAnimationView */,
+				3629703E288218D700A0B567 /* InProgressView */,
+				36CFE9A12887504F00605615 /* CarsView */,
+				36C6F0B928833B1500CEC096 /* TabNavigation */,
+				36C6F0B42882BF7600CEC096 /* SplashView */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2AEA11632932A4BA00FBB08F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				36C6F0C128834AC600CEC096 /* Models */,
+				3629704428821BE100A0B567 /* Services */,
+				3645B622287F64D8007F4473 /* Constants */,
+				3645B627287F6D8D007F4473 /* Styles */,
+				3693F946287CCE0700F44A3F /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		3629703B288216D700A0B567 /* LottieAnimations */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,24 +205,6 @@
 				3687374C287CA8EC007DA423 /* ContentView.swift */,
 			);
 			path = Application;
-			sourceTree = "<group>";
-		};
-		3629704228821B6A00A0B567 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				36873755287CA8EF007DA423 /* uCar.xcdatamodeld */,
-				36873753287CA8EF007DA423 /* Persistence.swift */,
-			);
-			path = CoreData;
-			sourceTree = "<group>";
-		};
-		3629704328821BD100A0B567 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				3629704428821BE100A0B567 /* Services */,
-				3645B622287F64D8007F4473 /* Constants */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		3629704428821BE100A0B567 /* Services */ = {
@@ -189,24 +233,14 @@
 			path = Styles;
 			sourceTree = "<group>";
 		};
-		364C115A288C876800318F32 /* Components */ = {
+		364C115A288C876800318F32 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				36CFE9A22887506000605615 /* CarsView.swift */,
 				364C115B288C878E00318F32 /* BrandSelectionView.swift */,
 				364C115D288C894200318F32 /* BrandItem.swift */,
 				364C115F288C915600318F32 /* CarListView.swift */,
 				364C1161288C91B600318F32 /* CarItemView.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		36553D3128820B250017333D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				36CFE9A12887504F00605615 /* CarsView */,
-				36C6F0B42882BF7600CEC096 /* SplashView */,
-				3629703E288218D700A0B567 /* InProgressView */,
-				36553D3228820B490017333D /* LottieAnimationView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,7 +248,8 @@
 		36553D3228820B490017333D /* LottieAnimationView */ = {
 			isa = PBXGroup;
 			children = (
-				36553D3328820B680017333D /* LottieAnimationView.swift */,
+				2A7CB1832932AA7700614D04 /* ViewModels */,
+				2A7CB1822932AA6A00614D04 /* Views */,
 			);
 			path = LottieAnimationView;
 			sourceTree = "<group>";
@@ -242,17 +277,12 @@
 		36873749287CA8EC007DA423 /* uCar */ = {
 			isa = PBXGroup;
 			children = (
-				36C6F0C128834AC600CEC096 /* Models */,
 				3693F945287CC9A200F44A3F /* Info.plist */,
 				3629704128821B2500A0B567 /* Application */,
-				3693F946287CCE0700F44A3F /* Components */,
-				3629704228821B6A00A0B567 /* CoreData */,
-				36C6F0B928833B1500CEC096 /* Navigation */,
+				2AEA11622932A4A600FBB08F /* Features */,
 				36873750287CA8EF007DA423 /* Preview Content */,
 				3693F90C287CC19400F44A3F /* Resources */,
-				3645B627287F6D8D007F4473 /* Styles */,
-				3629704328821BD100A0B567 /* Utils */,
-				36553D3128820B250017333D /* Views */,
+				2AEA11632932A4BA00FBB08F /* Shared */,
 			);
 			path = uCar;
 			sourceTree = "<group>";
@@ -291,7 +321,7 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		3693F946287CCE0700F44A3F /* Components */ = {
+		3693F946287CCE0700F44A3F /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				3645B620287F627A007F4473 /* TextInput.swift */,
@@ -300,7 +330,7 @@
 				364C1163288C9E6700318F32 /* SearchInput.swift */,
 				364C1165288CA92100318F32 /* HomeHeader.swift */,
 			);
-			path = Components;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		36C6F0B42882BF7600CEC096 /* SplashView */ = {
@@ -311,23 +341,23 @@
 			path = SplashView;
 			sourceTree = "<group>";
 		};
-		36C6F0B928833B1500CEC096 /* Navigation */ = {
+		36C6F0B928833B1500CEC096 /* TabNavigation */ = {
 			isa = PBXGroup;
 			children = (
-				36C6F0BC28833B5700CEC096 /* Components */,
-				36C6F0BA28833B4C00CEC096 /* HomeNavigation.swift */,
-				36C6F0BF2883492100CEC096 /* TabBarViewModel.swift */,
+				2A7CB1842932AD2C00614D04 /* ViewModels */,
+				36C6F0BC28833B5700CEC096 /* Views */,
 			);
-			path = Navigation;
+			path = TabNavigation;
 			sourceTree = "<group>";
 		};
-		36C6F0BC28833B5700CEC096 /* Components */ = {
+		36C6F0BC28833B5700CEC096 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				36C6F0BA28833B4C00CEC096 /* HomeNavigation.swift */,
 				36C6F0BD28833B7100CEC096 /* BottomTabView.swift */,
 				36C6F0C628834DC600CEC096 /* TabItemView.swift */,
 			);
-			path = Components;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		36C6F0C128834AC600CEC096 /* Models */ = {
@@ -343,10 +373,9 @@
 		36CFE9A12887504F00605615 /* CarsView */ = {
 			isa = PBXGroup;
 			children = (
-				364C115A288C876800318F32 /* Components */,
-				36CFE9A22887506000605615 /* CarsView.swift */,
-				364C1155288C828600318F32 /* data.swift */,
-				364C1158288C856F00318F32 /* CarsViewModel.swift */,
+				2A7CB17F2932A77B00614D04 /* ViewModels */,
+				2A7CB17E2932A76700614D04 /* Models */,
+				364C115A288C876800318F32 /* Views */,
 			);
 			path = CarsView;
 			sourceTree = "<group>";
@@ -514,7 +543,7 @@
 			files = (
 				3645B62B287F708F007F4473 /* MainText.swift in Sources */,
 				364C1162288C91B600318F32 /* CarItemView.swift in Sources */,
-				36873757287CA8EF007DA423 /* uCar.xcdatamodeld in Sources */,
+				2A7CB1812932A81B00614D04 /* LottieAnimationViewModel.swift in Sources */,
 				3645B624287F64EB007F4473 /* Colors.swift in Sources */,
 				364C115E288C894200318F32 /* BrandItem.swift in Sources */,
 				3645B626287F6B1F007F4473 /* MainButton.swift in Sources */,
@@ -524,7 +553,6 @@
 				36C6F0C02883492100CEC096 /* TabBarViewModel.swift in Sources */,
 				36C6F0BE28833B7100CEC096 /* BottomTabView.swift in Sources */,
 				364C1156288C828600318F32 /* data.swift in Sources */,
-				36873754287CA8EF007DA423 /* Persistence.swift in Sources */,
 				36C6F0C328834ADA00CEC096 /* BottomTab.swift in Sources */,
 				3687374D287CA8EC007DA423 /* ContentView.swift in Sources */,
 				364C1160288C915600318F32 /* CarListView.swift in Sources */,
@@ -669,10 +697,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"uCar/Preview Content\"";
-				DEVELOPMENT_TEAM = 3K48P7XUH2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = uCar/Info.plist;
@@ -681,7 +710,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -704,10 +733,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"uCar/Preview Content\"";
-				DEVELOPMENT_TEAM = 3K48P7XUH2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = uCar/Info.plist;
@@ -716,7 +746,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -755,19 +785,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		36873755287CA8EF007DA423 /* uCar.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				36873756287CA8EF007DA423 /* uCar.xcdatamodel */,
-			);
-			currentVersion = 36873756287CA8EF007DA423 /* uCar.xcdatamodel */;
-			path = uCar.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3687373F287CA8EC007DA423 /* Project object */;
 }
