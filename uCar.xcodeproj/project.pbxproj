@@ -150,13 +150,21 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		2A7CB1842932AD2C00614D04 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				36C6F0BF2883492100CEC096 /* TabBarViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		2AEA11622932A4A600FBB08F /* Features */ = {
 			isa = PBXGroup;
 			children = (
 				36553D3228820B490017333D /* LottieAnimationView */,
 				3629703E288218D700A0B567 /* InProgressView */,
 				36CFE9A12887504F00605615 /* CarsView */,
-				36C6F0B928833B1500CEC096 /* Navigation */,
+				36C6F0B928833B1500CEC096 /* TabNavigation */,
 				36C6F0B42882BF7600CEC096 /* SplashView */,
 			);
 			path = Features;
@@ -333,19 +341,19 @@
 			path = SplashView;
 			sourceTree = "<group>";
 		};
-		36C6F0B928833B1500CEC096 /* Navigation */ = {
+		36C6F0B928833B1500CEC096 /* TabNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				2A7CB1842932AD2C00614D04 /* ViewModels */,
 				36C6F0BC28833B5700CEC096 /* Views */,
-				36C6F0BA28833B4C00CEC096 /* HomeNavigation.swift */,
-				36C6F0BF2883492100CEC096 /* TabBarViewModel.swift */,
 			);
-			path = Navigation;
+			path = TabNavigation;
 			sourceTree = "<group>";
 		};
 		36C6F0BC28833B5700CEC096 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				36C6F0BA28833B4C00CEC096 /* HomeNavigation.swift */,
 				36C6F0BD28833B7100CEC096 /* BottomTabView.swift */,
 				36C6F0C628834DC600CEC096 /* TabItemView.swift */,
 			);
