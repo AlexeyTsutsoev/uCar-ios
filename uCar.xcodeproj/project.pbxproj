@@ -12,6 +12,9 @@
 		2A9A66152933CDB6009CD441 /* BlurredBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A66142933CDB6009CD441 /* BlurredBackgroundView.swift */; };
 		2A9A661B2933D1C8009CD441 /* UIScreen+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A661A2933D1C8009CD441 /* UIScreen+DeviceInfo.swift */; };
 		2A9A661E2933D974009CD441 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 2A9A661D2933D974009CD441 /* iPhoneNumberField */; };
+		2A9A66202933D9FF009CD441 /* PhoneInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A661F2933D9FF009CD441 /* PhoneInput.swift */; };
+		2A9A66242933E376009CD441 /* EnterPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A66232933E376009CD441 /* EnterPhoneView.swift */; };
+		2A9A66312933F7A9009CD441 /* EnterPhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A66302933F7A9009CD441 /* EnterPhoneViewModel.swift */; };
 		3629703D288216E400A0B567 /* in-develop-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 3629703C288216E400A0B567 /* in-develop-animation.json */; };
 		36297040288218F000A0B567 /* InProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629703F288218F000A0B567 /* InProgressView.swift */; };
 		3629704628821BFB00A0B567 /* HapticFeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629704528821BFB00A0B567 /* HapticFeedbackService.swift */; };
@@ -61,6 +64,9 @@
 		2A7CB1802932A81B00614D04 /* LottieAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationViewModel.swift; sourceTree = "<group>"; };
 		2A9A66142933CDB6009CD441 /* BlurredBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurredBackgroundView.swift; sourceTree = "<group>"; };
 		2A9A661A2933D1C8009CD441 /* UIScreen+DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+DeviceInfo.swift"; sourceTree = "<group>"; };
+		2A9A661F2933D9FF009CD441 /* PhoneInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneInput.swift; sourceTree = "<group>"; };
+		2A9A66232933E376009CD441 /* EnterPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneView.swift; sourceTree = "<group>"; };
+		2A9A66302933F7A9009CD441 /* EnterPhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneViewModel.swift; sourceTree = "<group>"; };
 		3629703C288216E400A0B567 /* in-develop-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "in-develop-animation.json"; sourceTree = "<group>"; };
 		3629703F288218F000A0B567 /* InProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressView.swift; sourceTree = "<group>"; };
 		3629704528821BFB00A0B567 /* HapticFeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackService.swift; sourceTree = "<group>"; };
@@ -172,9 +178,35 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		2A9A66212933E33C009CD441 /* EnterPhoneView */ = {
+			isa = PBXGroup;
+			children = (
+				2A9A662F2933F78C009CD441 /* ViewModels */,
+				2A9A66222933E368009CD441 /* Views */,
+			);
+			path = EnterPhoneView;
+			sourceTree = "<group>";
+		};
+		2A9A66222933E368009CD441 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A9A66232933E376009CD441 /* EnterPhoneView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A9A662F2933F78C009CD441 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2A9A66302933F7A9009CD441 /* EnterPhoneViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		2AEA11622932A4A600FBB08F /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				2A9A66212933E33C009CD441 /* EnterPhoneView */,
 				36553D3228820B490017333D /* LottieAnimationView */,
 				3629703E288218D700A0B567 /* InProgressView */,
 				36CFE9A12887504F00605615 /* CarsView */,
@@ -345,6 +377,7 @@
 				364C1163288C9E6700318F32 /* SearchInput.swift */,
 				364C1165288CA92100318F32 /* HomeHeader.swift */,
 				2A9A66142933CDB6009CD441 /* BlurredBackgroundView.swift */,
+				2A9A661F2933D9FF009CD441 /* PhoneInput.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -583,10 +616,13 @@
 				3629704B28821ED100A0B567 /* Images.swift in Sources */,
 				36C6F0C528834B6700CEC096 /* bottomTabs.swift in Sources */,
 				36C6F0C728834DC600CEC096 /* TabItemView.swift in Sources */,
+				2A9A66242933E376009CD441 /* EnterPhoneView.swift in Sources */,
 				36553D3428820B680017333D /* LottieAnimationView.swift in Sources */,
 				364C1164288C9E6700318F32 /* SearchInput.swift in Sources */,
 				3645B621287F627A007F4473 /* TextInput.swift in Sources */,
+				2A9A66312933F7A9009CD441 /* EnterPhoneViewModel.swift in Sources */,
 				36B21152288C79D1002C0294 /* AutoBrand.swift in Sources */,
+				2A9A66202933D9FF009CD441 /* PhoneInput.swift in Sources */,
 				36B21154288C7B12002C0294 /* Car.swift in Sources */,
 				2A9A661B2933D1C8009CD441 /* UIScreen+DeviceInfo.swift in Sources */,
 				36CFE9A32887506000605615 /* CarsView.swift in Sources */,
@@ -651,7 +687,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -705,7 +741,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
