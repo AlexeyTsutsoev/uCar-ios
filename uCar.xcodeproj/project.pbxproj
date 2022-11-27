@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0ED74734074C0BD080BDE24C /* Pods_uCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF13BE94737E6518507447FC /* Pods_uCar.framework */; };
 		2A7CB1812932A81B00614D04 /* LottieAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7CB1802932A81B00614D04 /* LottieAnimationViewModel.swift */; };
+		2A9A66152933CDB6009CD441 /* BlurredBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A66142933CDB6009CD441 /* BlurredBackgroundView.swift */; };
+		2A9A661B2933D1C8009CD441 /* UIScreen+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A661A2933D1C8009CD441 /* UIScreen+DeviceInfo.swift */; };
+		2A9A661E2933D974009CD441 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 2A9A661D2933D974009CD441 /* iPhoneNumberField */; };
 		3629703D288216E400A0B567 /* in-develop-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 3629703C288216E400A0B567 /* in-develop-animation.json */; };
 		36297040288218F000A0B567 /* InProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629703F288218F000A0B567 /* InProgressView.swift */; };
 		3629704628821BFB00A0B567 /* HapticFeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629704528821BFB00A0B567 /* HapticFeedbackService.swift */; };
@@ -56,6 +59,8 @@
 
 /* Begin PBXFileReference section */
 		2A7CB1802932A81B00614D04 /* LottieAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationViewModel.swift; sourceTree = "<group>"; };
+		2A9A66142933CDB6009CD441 /* BlurredBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurredBackgroundView.swift; sourceTree = "<group>"; };
+		2A9A661A2933D1C8009CD441 /* UIScreen+DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+DeviceInfo.swift"; sourceTree = "<group>"; };
 		3629703C288216E400A0B567 /* in-develop-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "in-develop-animation.json"; sourceTree = "<group>"; };
 		3629703F288218F000A0B567 /* InProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressView.swift; sourceTree = "<group>"; };
 		3629704528821BFB00A0B567 /* HapticFeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackService.swift; sourceTree = "<group>"; };
@@ -112,6 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ED74734074C0BD080BDE24C /* Pods_uCar.framework in Frameworks */,
+				2A9A661E2933D974009CD441 /* iPhoneNumberField in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +164,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		2A9A66192933D195009CD441 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A9A661A2933D1C8009CD441 /* UIScreen+DeviceInfo.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2AEA11622932A4A600FBB08F /* Features */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +187,7 @@
 		2AEA11632932A4BA00FBB08F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2A9A66192933D195009CD441 /* Extensions */,
 				36C6F0C128834AC600CEC096 /* Models */,
 				3629704428821BE100A0B567 /* Services */,
 				3645B622287F64D8007F4473 /* Constants */,
@@ -329,6 +344,7 @@
 				3645B62A287F708F007F4473 /* MainText.swift */,
 				364C1163288C9E6700318F32 /* SearchInput.swift */,
 				364C1165288CA92100318F32 /* HomeHeader.swift */,
+				2A9A66142933CDB6009CD441 /* BlurredBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -416,6 +432,9 @@
 			dependencies = (
 			);
 			name = uCar;
+			packageProductDependencies = (
+				2A9A661D2933D974009CD441 /* iPhoneNumberField */,
+			);
 			productName = uCar;
 			productReference = 36873747287CA8EC007DA423 /* uCar.app */;
 			productType = "com.apple.product-type.application";
@@ -444,6 +463,9 @@
 				Base,
 			);
 			mainGroup = 3687373E287CA8EC007DA423;
+			packageReferences = (
+				2A9A661C2933D974009CD441 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			productRefGroup = 36873748287CA8EC007DA423 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -550,6 +572,7 @@
 				36C6F0BB28833B4C00CEC096 /* HomeNavigation.swift in Sources */,
 				364C1166288CA92100318F32 /* HomeHeader.swift in Sources */,
 				364C115C288C878E00318F32 /* BrandSelectionView.swift in Sources */,
+				2A9A66152933CDB6009CD441 /* BlurredBackgroundView.swift in Sources */,
 				36C6F0C02883492100CEC096 /* TabBarViewModel.swift in Sources */,
 				36C6F0BE28833B7100CEC096 /* BottomTabView.swift in Sources */,
 				364C1156288C828600318F32 /* data.swift in Sources */,
@@ -565,6 +588,7 @@
 				3645B621287F627A007F4473 /* TextInput.swift in Sources */,
 				36B21152288C79D1002C0294 /* AutoBrand.swift in Sources */,
 				36B21154288C7B12002C0294 /* Car.swift in Sources */,
+				2A9A661B2933D1C8009CD441 /* UIScreen+DeviceInfo.swift in Sources */,
 				36CFE9A32887506000605615 /* CarsView.swift in Sources */,
 				364C1159288C856F00318F32 /* CarsViewModel.swift in Sources */,
 				3629704628821BFB00A0B567 /* HapticFeedbackService.swift in Sources */,
@@ -785,6 +809,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A9A661C2933D974009CD441 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A9A661D2933D974009CD441 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A9A661C2933D974009CD441 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3687373F287CA8EC007DA423 /* Project object */;
 }
