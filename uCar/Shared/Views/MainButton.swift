@@ -45,6 +45,7 @@ struct MainButton: View {
                 }
             }
         }
+        .frame(height: 56)
         .background(disabled ? grayColor : fontColor)
         .clipShape(Capsule())
         .buttonStyle(FilledButton())
